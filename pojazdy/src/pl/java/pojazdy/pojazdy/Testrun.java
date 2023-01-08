@@ -1,3 +1,5 @@
+package pl.java.pojazdy.pojazdy;
+
 import java.util.Scanner;
 
 public class Testrun {
