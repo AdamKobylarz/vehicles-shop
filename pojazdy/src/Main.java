@@ -27,8 +27,8 @@ public class Main {
             switch (userChoice){
                 case 1 -> vechicles.displayOptionAboutVehicle();
                 case 2 -> System.out.println("wybrano 2");
-                case 3 -> car.displayListOfCars();
-                case 4 -> car.displaySelectedCar();
+                case 3 -> System.out.println("Wybrano 3");
+                case 4 -> shoppingCart.displayShoppingCart();
                 case 5 -> loop = false;
             }
         }
