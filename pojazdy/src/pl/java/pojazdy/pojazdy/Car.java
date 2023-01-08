@@ -8,10 +8,12 @@ public class Car {
 
     private ArrayList<String> usersListOfCars = new ArrayList<>();
 
+
     Scanner choiceOfCar = new Scanner(System.in);
 
     public void  displayListOfCars () {
         System.out.println("Ford "+ "Audi "+ "Toyota "+ "Skoda "+ "BMW "+ "Opel ");
+
 
         String userChoiceOfCar = choiceOfCar.nextLine();
 

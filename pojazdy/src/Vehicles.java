@@ -13,7 +13,7 @@ public class Vehicles {
 
     public void displayOptionAboutVehicle() {
         while (loopVehicles) {
-            System.out.println("Chose type of vechicle you want:");
+            System.out.println("Chose type of vechicle you want to buy:");
             System.out.println("1. Car");
             System.out.println("2. Motorbike");
             System.out.println("3. Bike");
