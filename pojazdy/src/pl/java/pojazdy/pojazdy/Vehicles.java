@@ -25,8 +25,8 @@ public class Vehicles {
 
             switch (userChoiceTypeOfVechicle) {
                 case 1 -> car.displayListOfCars();
-                case 2 -> car.displayListOfCars();
-                case 3 -> car.displaySelectedCar();
+                case 2 -> System.out.println("wybrano 2");
+                case 3 -> System.out.println("wybrano 3");
                 case 4 -> loopVehicles = false;
            }
         }
